@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+<body>
+    <input>
+    <br>
+    <input type="password">
+    <br>
+    <input type="email">
+    <br>
+    <input min="100" max="150" type="number">
+    <br>
+    <input type="time">
+    <br>
+    <input type="date">
+    <br>
+    <input type="color">
+    <br>
+    <input type="file">
+    <br>
+
+    <h2>Checkbox vs Radio</h2>
+
+    <h3>Unlabelled Unnamed Checkboxes and Radio Buttons</h3>
+    <input type="checkbox" name="" id="">Pen
+    <input type="checkbox" name="" id="">Paper
+    <input type="checkbox" name="" id="">Eraser
+    <br>
+    <input type="radio" name="" id="">Morning
+    <input type="radio" name="" id="">Afternoon
+    <input type="radio" name="" id="">Evening
+    <br>
+    
+    <h3>Labelled Named Checkboxes and Radio Buttons</h3>
+    <input type="checkbox" name="" id="a"><label for="a">Pen</label>
+    <input type="checkbox" name="" id="b"><label for="b">Paper</label>
+    <input type="checkbox" name="" id="c"><label for="c">Eraser</label>
+    <br>
+    <input type="radio" name="Time" id="x"><label for="x">Morning</label>
+    <input type="radio" name="Time" id="y"><label for="y">Afternoon</label>
+    <input type="radio" name="Time" id="z"><label for="z">Evening</label>
+    <br>
+
+    <textarea>Default Text</textarea>
+    <br>
+    <select name="" id="">
+        <option value="">A</option>
+        <option value="">B</option>
+        <option value="">C</option>
+        <option value="">D</option>
+        <option value="">E</option>
+    </select>
+    <select multiple name="" id="">
+        <option value="">A</option>
+        <option value="">B</option>
+        <option value="">C</option>
+        <option value="">D</option>
+        <option value="">E</option>
+    </select>
+    <h2>Search Bar</h2>
+    <form action="https://www.google.com/search">
+        <input name="q">
+        <button type="submit">🔍</button>
+        <button type="reset">❌</button>
+    </form>
+</body>
+</html>
