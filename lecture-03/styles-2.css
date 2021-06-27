@@ -1,0 +1,31 @@
+*{
+    background-color: lightcyan;
+}
+
+.divClass1{
+    background-color: lightsalmon;
+}
+
+#div1{
+    background-color: indianred;
+}
+
+div{
+    background-color:magenta;
+}
+
+li{
+    font-weight: bold;
+}
+
+ul > li{
+    color: blue;
+}
+
+ul ul{
+    font-style: italic;
+}
+
+ol > li{
+    color: red;
+}

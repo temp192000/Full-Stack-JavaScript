@@ -1,0 +1,29 @@
+*{
+    background-color: bisque;
+}
+
+h2, ul{
+    margin-left: 40px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+p{
+    margin-left: 40px;
+    font-weight: bold;
+}
+
+
+#p2, #p4{
+    font-family: monospace;
+    font-weight:lighter;
+    margin: 20px 80px;
+}
+
+.outerPara{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.innerPara{
+    font-weight: lighter;
+    font-style: italic;
+}
