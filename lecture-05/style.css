@@ -1,0 +1,31 @@
+.container{
+    background-color: cornsilk;
+    display: flex;
+    margin: 40px;
+    border: solid 1px;
+    height: 400px;
+    width: 400px;
+
+    flex-wrap: wrap;
+    flex-direction: row;
+    
+    /* how items within a row are aligned in order */
+    justify-content: center;
+    
+    /* align items within the row perpendicularly */
+    align-items:flex-end;
+    
+    /* how the rows all together are algined */
+    align-content: center;
+}
+
+.item{
+    background-color: dodgerblue;
+    color: white;
+    font-size: 20pt;
+    height: 50px;
+    width: 50px;
+    margin: 10px;
+    border: solid black 1px;
+    padding: 10px;
+}
