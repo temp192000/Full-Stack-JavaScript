@@ -1,0 +1,21 @@
+.box{
+    margin: 50px;
+    height: 500px;
+    width: 500px;
+
+    background-color: wheat;
+}
+
+@media(max-width:900px){
+    .box{
+        background-color: blueviolet;
+    }    
+}
+
+
+@media(max-width:600px){
+    .box{
+        background-color: blue;
+    }    
+}
+
