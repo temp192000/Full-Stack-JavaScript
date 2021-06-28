@@ -1,0 +1,140 @@
+/*
+div{
+    background-color: blueviolet;
+    height: 40px;
+    margin: 20px;
+}
+
+div:hover{
+    background-color: coral;
+}
+*/
+
+/*
+div.btn{
+    background-color: darkgoldenrod;
+    margin: 40px;
+    padding: 20px;
+    width: 80px;
+    color: white;
+
+    box-shadow: slategray 10px 10px 6px;
+}
+
+div.btn:hover{
+    transform: translate(-10px,-10px);
+}
+
+div.btn:active{
+    transform: translate(5px, 5px);
+    box-shadow: slategray 5px 5px 3px;
+    transition: 0.11s;
+}
+
+div.container{
+    background-color: burlywood;
+    margin: 80px;
+    height: 400px;
+    width: 600px;
+    font-size: 0;
+}
+
+div.items{
+    background-color: darkblue;
+    margin: 20px;
+    border: solid;
+    padding: 2px;
+    height: 60px;
+    width: 100px;
+    display: inline-block;
+
+    animation: bounce 1.5s infinite;
+}
+
+div.one{
+    animation-timing-function: ease-in;
+}
+
+div.two{
+    animation-timing-function: ease-out;
+}
+
+div.three{
+    animation-timing-function:linear;
+}
+
+@keyframes bounce {
+    50%{
+        transform: translateY(300px);
+    }
+}
+
+*/
+
+div.game{
+    background-color:lightgoldenrodyellow;
+    margin: 50px;
+    border: solid 1px;
+    height: 500px;
+    width: 600px;
+}
+
+div.box{
+    border: solid 1px;
+    height: 50px;
+    width: 50px;
+
+    display: inline-block;
+}
+
+div.player{
+    margin-left: 10px;
+    background-color:blueviolet;
+    transform: translateY(425px);   
+    animation-name: move;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-duration: 5s;
+    animation-play-state: paused;
+}
+
+div.object{
+    margin-left: 100px;
+    background-color:tomato;
+    animation-name: bounce;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+div.one{
+    animation-duration: 4s;
+}
+
+div.two{
+    animation-duration: 1.8s;
+}
+
+div.three{
+    animation-duration: 2s;
+}
+
+div.game:active .player{
+    animation-play-state: running;
+}
+
+/* div.player:active{
+    animation-play-state: running;
+} */
+
+
+@keyframes bounce {
+    50%{
+        transform: translateY(435px);
+    }
+}
+
+@keyframes move {
+    50%{
+        transform: translate(540px,425px);
+    }
+}
