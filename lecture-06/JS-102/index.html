@@ -5,9 +5,22 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>JS 102</title>
-    <script src="./script.js"></script>
+    <!-- <script src="./script.js"></script> -->
+    <!-- <script src="./functions.js"></script> -->
+    <script src="./higherOrderFunctions.js"></script>
 </head>
 <body>
+    <h1>JavaScript Basics</h1>
+    <input id="userName">
     
+    <!-- argument is treated as literal -->
+    <!-- 
+    <button onclick="greetMorning(getUserName())">Good Morning</button>
+    <button onclick="greetEvening(getUserName())">Good Evening</button> 
+    -->
+
+    <!-- argument is treated as function -->
+    <button onclick="greetMorning(getUserName)">Good Morning</button>
+    <button onclick="greetEvening(getUserName)">Good Evening</button>
 </body>
 </html>
