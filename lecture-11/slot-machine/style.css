@@ -1,0 +1,58 @@
+:root{
+    --speed: 5;
+}
+
+.machine{
+    background-color: darkblue;
+    border: dashed black 1px;
+
+    height: 300px;
+    width: 900px;
+    margin: 50px;
+
+    display: flex;
+
+    z-index: 5;
+}
+
+.slot{
+    font-size: 100px;
+
+    height: 250px;
+    width: 250px;
+    margin: 20px;
+
+    background-color: thistle;
+    border: solid white;
+
+    text-align: center;
+    line-height: 250px;
+    overflow: hidden;
+
+    z-index: 3;
+}
+
+.slot .value{
+    animation: slotSpin infinite calc(1s/var(--speed));
+    z-index: 1;
+}
+
+@keyframes slotSpin {
+    0%{
+        transform: translateY(-200px);
+    }
+    100%{
+        transform: translateY(200px);
+    }
+}
+
+#inpSpeed{
+    border: black;
+    
+    width: 70px;
+    margin: 50px;
+    color: white;
+    font-size: 50px;
+
+    background-color: black
+}
