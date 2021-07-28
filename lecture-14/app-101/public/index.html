@@ -6,10 +6,33 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home</title>
     <link rel="stylesheet" href="./css/style.css">
-    <script src="./js/script.js"></script>
+    <!-- <script src="./js/script.js"></script> -->
 </head>
 <body>
-    <h1>Landing Page</h1>
     <a href="./about.html" id="nextPage">About Us🖐</a>
+    <h1>Landing Page</h1>
+    <br>
+    <h2>Welcome users</h2>
+    <form action="/welcome" method="GET">
+        <input name="user" type="text" placeholder="Enter your name">
+        <button type="submit">✅</button>
+    </form>
+    <br>
+    <h2>Google Shit</h2>
+    <form action="https://google.com/search" method="GET">
+        <input name="q" type="text" placeholder="Enter shit to search">
+        <button type="submit">🔍</button>
+    </form>
+    <br>
+    <h2>Search Engine</h2>
+    <div>🦆 🥚</div>
+    <div>!g -> Google</div>
+    <div>!b -> Bing</div>
+    <form method="GET">
+        <input name="q" type="text" placeholder="Enter shit to search">
+        <button formaction="https://google.com/search" type="submit">Google</button>
+        <button formaction="https://bing.com/search" type="submit">Bing</button>
+        <button formaction="https://duckduckgo.com/" type="submit">🦆🦆Go</button>
+    </form>
 </body>
 </html>
