@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cheap JS Fiddle</title>
+    <link rel="stylesheet" href="./style.css">
+    <script async defer src="./script.js"></script>
+</head>
+<body>
+    <h1>eval() is evil</h1>
+    
+    <textarea name="" id="inpCode" cols="60" rows="30"></textarea>
+    <button id="btn-encode">✉</button>
+
+    <!-- Encrypt Code Before Sending -->
+    <!-- <button id="btn-encrypt"></button> -->
+    <!-- Hide this Step -->
+    
+    <form action="/eval" method="get">
+        <input style="width: 500px;" type="text" name="encodeJS" id="encodeJS">
+        <button type="submit" id="btn-eval">🟢</button>
+    </form>
+</body>
+</html>
