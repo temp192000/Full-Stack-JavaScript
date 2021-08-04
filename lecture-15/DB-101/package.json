@@ -1,0 +1,15 @@
+{
+  "name": "db-101",
+  "version": "1.0.0",
+  "description": "```shell\r mysql -u root # For that idiots who didn't put a password\r mysql -u root -p '<PASSWORD>' # If you've a password\r ```\r <hr>",
+  "main": "to-do.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "mysql2": "^2.2.5",
+    "sequelize": "^6.6.5"
+  }
+}
