@@ -3,7 +3,7 @@ let btnAdd = $('#btnAdd');
 let btnClear = $('#btnClear');
 let inpNewTask = $('#inpNewTask');
 
-btnAdd.click(() => {
+function addItem(){
     let listItem = $('<li>', {
         'class':'list-group-item',
         text: inpNewTask.val()
@@ -19,8 +19,14 @@ btnAdd.click(() => {
     })
 
     ulTasks.append(listItem);
-});
+}
 
-btnClear.click(() => {
-    inpNewTask.val("");
-});
+
+inpNewTask.keypress((e) => {
+    if(e.which == 13){
+        addItem();
+    }
+})
+
+btnAdd.click(addItem);
+btnClear.click(() => inpNewTask.val(""));
