@@ -9,6 +9,15 @@ btnAdd.click(() => {
         text: inpNewTask.val()
     })
 
+    //pointer-events: none
+    // listItem.click(() => {
+    //     listItem.toggleClass('disabled');
+    // })
+
+    listItem.click(() => {
+        listItem.toggleClass('done');
+    })
+
     ulTasks.append(listItem);
 });
 
