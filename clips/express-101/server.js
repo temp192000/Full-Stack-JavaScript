@@ -10,7 +10,7 @@ app.get('/', (req, res) => {
 
 app.listen(4444, () => {
     console.log("Server Started on http://localhost:4444");
-    console.log("Server Started on http://0.0.0.0:4444");
-    console.log("Server Started on http://127.0.0.1:4444");
-    console.log("Server Started on http://<IP Address>:4444");
+    // console.log("Server Started on http://0.0.0.0:4444");
+    // console.log("Server Started on http://127.0.0.1:4444");
+    // console.log("Server Started on http://<IP Address>:4444");
 })
