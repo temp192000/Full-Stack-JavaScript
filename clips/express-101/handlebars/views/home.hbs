@@ -11,6 +11,10 @@
         <input name="newTask" type="text">
         <button type="submit">➕</button>
     </form>
-    <ul></ul>
+    <ul>
+        {{#each tasks as |t|}}
+        <li>{{t}}</li>
+        {{/each}}
+    </ul>
 </body>
 </html>
